@@ -2,4 +2,4 @@ import os
 
 def handler(context):
   print("main")
-  print(os.environ["TEST-VAR"])
+  print(os.environ["TEST-ENV"])
